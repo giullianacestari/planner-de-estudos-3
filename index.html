@@ -11,60 +11,12 @@
 <body>
     <main class="container">
         <aside class="menu-lateral">
-            <h1>Alura Planner</h1>
-            <hr>
-            <!-- Adicionar nova tarefa -->
-            <form>
-                <h2>Adicionar nova tarefa</h2>
 
-                <div>
-                    <label for="disciplina">Disciplina:</label>
-                    <select id="disciplina" class="disciplina">
-                        <option disabled>Escolha uma disciplina</option>
-
-                    </select>
-
-                </div>
-                <div>
-                    <label for="descricao">Tarefa:</label>
-                    <input id="descricao" name="tarefa" type="text" placeholder="digite sua tarefa" required>
-                    <br>
-                </div>
-                <div>
-                    <label for="data-de-conclusao">Prazo:</label>
-                    <input type="date" id="data-de-conclusao" required>
-                </div>
-
-                <!-- Botão adicionar -->
-                <button type="button" class="adicionar" onclick="novaTarefa()">Enviar</button>
-            </form>
         </aside>
-        <section>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Disciplina</th>
-                        <th class="titulo-tarefa">Tarefa</th>
-                        <th>Prazo</th>
-                        <th class="titulo-feito">Feito</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <!--
-                        PRIMEIRO RESULTADO
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        -->
-                    </tr>
-                </tbody>
-            </table>
+        <section class="secao-tabela">
+
         </section>
     </main>
-    <script src="assets/localStorage.js"></script>
-    <script src="assets/main.js"></script>
 </body>
 
 </html>
