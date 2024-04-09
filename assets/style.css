@@ -13,3 +13,35 @@ body {
     background-color: #e5e5e5;
     padding: 20px;
 }
+
+.secao-tabela {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+}
+
+
+thead th {
+    background-color: var(--azul);
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+
+tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+thead tr,
+thead th {
+    border: #ffffff 2px solid;
+
+}
+
+.titulo-feito,
+.feito {
+    text-align: center;
+}
